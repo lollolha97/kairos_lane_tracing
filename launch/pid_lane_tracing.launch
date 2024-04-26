@@ -1,0 +1,7 @@
+<launch>
+  <!-- node 태그를 사용하여 노드를 실행합니다 -->
+  <node pkg="simple_lane_tracing" type="cat_publish.py" name="publish_deviation" output="screen"/>
+  <node pkg="simple_lane_tracing" type="cat_cmd_pid.py" name="cmd_vel_lane_tracer" output="screen"/>
+  <node pkg="visualize_cam_topic" type="visualize_cam_topic.py" name="show_me_the_cam" output="screen"/>
+  <node pkg="rqt_gui" type="rqt_gui" name="rqt" args="--perspective-file $(find simple_lane_tracing)/rviz/lane_tracing_viwer.perspective" output="screen"/>
+</launch>
