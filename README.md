@@ -1,13 +1,13 @@
-![Ubuntu 20.04](https://upload.wikimedia.org/wikipedia/commons/a/af/Ubuntu-logo-small.svg) ![ROS Noetic](https://raw.githubusercontent.com/ros-infrastructure/roswiki/master/macro/ros.svg) ![Python](https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg) ![OpenCV](https://upload.wikimedia.org/wikipedia/commons/3/32/OpenCV_Logo_with_text_svg_version.svg)
-
 # AGV 제어 및 시뮬레이션 프로젝트
+![Ubuntu](https://img.shields.io/badge/Ubuntu-20.04-orange?logo=ubuntu)
+![ROS Noetic](https://img.shields.io/badge/ROS_Noetic-blue?logo=ros)
+![OpenCV](https://img.shields.io/badge/OpenCV-4.5.0-green?logo=opencv)
+![Unity](https://img.shields.io/badge/Unity-2022.3-black?logo=unity)
 
 ## 1. 목표 및 배경
-### 목표
-본 프로젝트는 **ROS Noetic**을 활용하여 **AGV(Automated Guided Vehicle) 제어 시스템**을 개발하고, **Unity 기반의 시뮬레이션 환경**을 구축하는 것을 목표로 합니다. AGV의 주행 경로를 최적화하고 센서 데이터를 효율적으로 처리하여 **산업 자동화 환경에서 활용 가능한 자율주행 시스템**을 구현하는 것이 핵심 목표입니다.
+### 목표    
 
 ### 배경
-AGV는 물류 및 제조업에서 중요한 자동화 요소로 자리 잡고 있습니다. 기존의 AGV 시스템은 정해진 경로를 따라 이동하는 방식이 일반적이지만, 최근에는 **SLAM(Simultaneous Localization and Mapping)**, **컴퓨터 비전**, **레이 트레이싱(ray tracing) 로직** 등을 활용하여 보다 정밀한 경로 탐색과 장애물 회피 기능을 수행하는 방향으로 발전하고 있습니다. 본 프로젝트에서는 ROS 및 OpenCV를 활용하여 **AGV의 인공지능 기반 경로 탐색 및 시뮬레이션 기능을 개선**하는 것을 목표로 합니다.
 
 ## 2. 시스템 아키텍처
 본 프로젝트의 전체 시스템 아키텍처는 다음과 같이 구성됩니다:
@@ -56,12 +56,6 @@ roslaunch mydata mydata_cam.launch
    ```
 
 ## 5. 설치 및 실행 방법
-### 사전 요구 사항
-- Ubuntu 20.04
-- ROS Noetic
-- Python 3.x
-- OpenCV
-- Unity 3D 2022.03
 
 ### 환경 설정 및 실행
 1. **ROS 환경 설정**
