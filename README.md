@@ -23,54 +23,28 @@
 
 
 ## 3. 레인 트레이싱(Lane Tracing) 로직
+
 ### LaneTracing Logic
-<p align="center">
-    <img src="git_images/lane_tracing.png" style="background-color: white; padding: 10px;" width="500" height="300">
-</p>
+<img src="git_images/lane_tracing.png" alt="LaneTrcaing" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
 
 ### PID Controller
-<p align="center">
-    <img src="git_images/pid.png" style="background-color: white; padding: 10px;" width="500" height="300">
-</p>
+<img src="git_images/pid.png" alt="PID" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
 
 #### PID On vs PID Off
-<table>
-  <tr>
-    <th>PID 적용</th>
-    <th>PID On</th>
-    <th>PID Off</th>
-  </tr>
-  <tr>
-    <td><img src="git_images/pid_effort.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-    <td><img src="git_images/pid_on.gif" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-    <td><img src="git_images/pid_off.gif" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-  </tr>
-</table>
+| PID 적용 | PID On | PID Off |
+|----------|--------|---------|
+| <img src="git_images/pid_effort.png" alt="PID Effort" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> | <img src="git_images/pid_on.gif" alt="PID On" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> | <img src="git_images/pid_off.gif" alt="PID Off" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> |
 
 ### Obstacle Avoidance Logic
-<p align="center">
-    <img src="git_images/avoidance.png" style="background-color: white; padding: 10px;" width="500" height="300">
-</p>
+<img src="git_images/avoidance.png" alt="Obastacle Avoiance" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
 
 ### Traffic Light Logic
-<p align="center">
-    <img src="git_images/traffic_light.png" style="background-color: white; padding: 10px;" width="500" height="300">
-</p>
+<img src="git_images/traffic_light.png" alt="Traffic Light" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
 
 ## Unity ROS#
-<table>
-  <tr>
-    <th>적용</th>
-    <th>PID On</th>
-    <th>PID Off</th>
-  </tr>
-  <tr>
-    <td><img src="git_images/unity1.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-    <td><img src="git_images/unity2.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-    <td><img src="git_images/unity3.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
-  </tr>
-</table>
-
+|  적용 | PID On | PID Off|
+|------|------|------|
+| ![PID Effort](git_images/unity1.png) | ![dev](git_images/unity2.png) | ![dev](git_images/unity3.png) |
 
 ## 4. AGV 사용법
 ### AGV 사용 전 유의 사항
