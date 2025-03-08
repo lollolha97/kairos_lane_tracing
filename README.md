@@ -4,6 +4,10 @@
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.5.0-green?logo=opencv)
 ![Unity](https://img.shields.io/badge/Unity-2022.3-black?logo=unity)
 
+[![결과영상](http://img.youtube.com/vi/pBbq8m0RX9M/0.jpg)](https://www.youtube.com/watch?v=pBbq8m0RX9M)
+
+
+
 ## 1. 목표 및 배경
 ### 목표    
 - **Elephant Robotics MyAGV**를 이용한 **Lane Tracing**과 **Obstacle Avoidance**
@@ -11,34 +15,62 @@
 
 ## 2. 시스템 아키텍처
 본 프로젝트의 전체 시스템 아키텍처는 다음과 같이 구성됩니다
-| 시스템 아키텍처 | 개발환경 아키텍처 |
-|------|------|
-| ![sys](git_images/sys_arc.png) | ![dev](git_images/dev_arc.png) |
+
+<img src="git_images/sys_arc.png" style="background-color: white; padding: 10px;" width="300">
+<img src="git_images/dev_arc.png" style="background-color: lightgray; padding: 10px;" width="250">
+
 
 
 
 ## 3. 레인 트레이싱(Lane Tracing) 로직
 ### LaneTracing Logic
-![LaneTrcaing](git_images/lane_tracing.png)
+<p align="center">
+    <img src="git_images/lane_tracing.png" style="background-color: white; padding: 10px;" width="500" height="300">
+</p>
 
 ### PID Controller
-![PID](git_images/pid.png)
+<p align="center">
+    <img src="git_images/pid.png" style="background-color: white; padding: 10px;" width="500" height="300">
+</p>
 
 #### PID On vs PID Off
-| PID 적용 | PID On | PID Off|
-|------|------|------|
-| ![PID Effort](git_images/pid_effort.png) | ![dev](git_images/pid_on.gif) | ![dev](git_images/pid_off.gif) |
+<table>
+  <tr>
+    <th>PID 적용</th>
+    <th>PID On</th>
+    <th>PID Off</th>
+  </tr>
+  <tr>
+    <td><img src="git_images/pid_effort.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+    <td><img src="git_images/pid_on.gif" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+    <td><img src="git_images/pid_off.gif" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+  </tr>
+</table>
 
 ### Obstacle Avoidance Logic
-![Obastacle Avoiance](git_images/avoidance.png)
+<p align="center">
+    <img src="git_images/avoidance.png" style="background-color: white; padding: 10px;" width="500" height="300">
+</p>
 
 ### Traffic Light Logic
-![Traffic Light](git_images/traffic_light.png)
+<p align="center">
+    <img src="git_images/traffic_light.png" style="background-color: white; padding: 10px;" width="500" height="300">
+</p>
 
 ## Unity ROS#
-|  적용 | PID On | PID Off|
-|------|------|------|
-| ![PID Effort](git_images/unity1.png) | ![dev](git_images/unity2.png) | ![dev](git_images/unity3.png) |
+<table>
+  <tr>
+    <th>적용</th>
+    <th>PID On</th>
+    <th>PID Off</th>
+  </tr>
+  <tr>
+    <td><img src="git_images/unity1.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+    <td><img src="git_images/unity2.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+    <td><img src="git_images/unity3.png" style="background-color: white; padding: 10px;" width="300" height="200"></td>
+  </tr>
+</table>
+
 
 ## 4. AGV 사용법
 ### AGV 사용 전 유의 사항
