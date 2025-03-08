@@ -44,7 +44,7 @@
 | ![PID Effort](git_images/pid_effort.png) | ![dev](git_images/pid_on.gif) | ![dev](git_images/pid_off.gif) |
 
 ### RQT
-| PID 적용 | PID On |
+| Simple RQT | RQT for data analysis |
 |------|------|
 | ![Simple RQT](git_images/simple_rqt.png) | ![RQT](git_images/rqt.png) |
 
