@@ -13,32 +13,32 @@
 본 프로젝트의 전체 시스템 아키텍처는 다음과 같이 구성됩니다
 | 시스템 아키텍처 | 개발환경 아키텍처 |
 |------|------|
-| ![sys](git_images\sys_arc.png) | ![dev](git_images\dev_arc.png) |
+| ![sys](git_images/sys_arc.png) | ![dev](git_images/dev_arc.png) |
 
 
 
 ## 3. 레인 트레이싱(Lane Tracing) 로직
 ### LaneTracing Logic
-![LaneTrcaing](git_images\lane_tracing.png)
+![LaneTrcaing](git_images/lane_tracing.png)
 
 ### PID Controller
-![PID](git_images\pid.png)
+![PID](git_images/pid.png)
 
 #### PID On vs PID Off
 | PID 적용 | PID On | PID Off|
 |------|------|------|
-| ![PID Effort](git_images\pid_effort.png) | ![dev](git_images\pid_on.gif) | ![dev](git_images\pid_off.gif) |
+| ![PID Effort](git_images/pid_effort.png) | ![dev](git_images/pid_on.gif) | ![dev](git_images/pid_off.gif) |
 
 ### Obstacle Avoidance Logic
-![Obastacle Avoiance](git_images\avoidance.png)
+![Obastacle Avoiance](git_images/avoidance.png)
 
 ### Traffic Light Logic
-![Traffic Light](git_images\traffic_light.png)
+![Traffic Light](git_images/traffic_light.png)
 
 ## Unity ROS#
 |  적용 | PID On | PID Off|
 |------|------|------|
-| ![PID Effort](git_images\unity1.png) | ![dev](git_images\unity2.png) | ![dev](git_images\unity3.png) |
+| ![PID Effort](git_images/unity1.png) | ![dev](git_images/unity2.png) | ![dev](git_images/unity3.png) |
 
 ## 4. AGV 사용법
 ### AGV 사용 전 유의 사항
