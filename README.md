@@ -23,26 +23,25 @@
 
 
 ## 3. 레인 트레이싱(Lane Tracing) 로직
-
 ### LaneTracing Logic
-<img src="git_images/lane_tracing.png" alt="LaneTrcaing" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
+![LaneTrcaing](git_images/lane_tracing.png)
 
 ### PID Controller
-<img src="git_images/pid.png" alt="PID" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
+![PID](git_images/pid.png)
 
 #### PID On vs PID Off
-| PID 적용 | PID On | PID Off |
-|----------|--------|---------|
-| <img src="git_images/pid_effort.png" alt="PID Effort" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> | <img src="git_images/pid_on.gif" alt="PID On" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> | <img src="git_images/pid_off.gif" alt="PID Off" style="max-width:300px; background-color:#ffffff; border:1px solid #ddd; padding:5px;"> |
+| PID 적용 | PID On | PID Off|
+|------|------|------|
+| ![PID Effort](git_images/pid_effort.png) | ![dev](git_images/pid_on.gif) | ![dev](git_images/pid_off.gif) |
 
 ### Obstacle Avoidance Logic
-<img src="git_images/avoidance.png" alt="Obastacle Avoiance" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
+![Obastacle Avoiance](git_images/avoidance.png)
 
 ### Traffic Light Logic
-<img src="git_images/traffic_light.png" alt="Traffic Light" style="max-width:600px; background-color:#ffffff; border:1px solid #ddd; padding:5px;">
+![Traffic Light](git_images/traffic_light.png)
 
 ## Unity ROS#
-|  적용 | PID On | PID Off|
+|  ROS Camera | Unity Camera | Unity Map|
 |------|------|------|
 | ![PID Effort](git_images/unity1.png) | ![dev](git_images/unity2.png) | ![dev](git_images/unity3.png) |
 
