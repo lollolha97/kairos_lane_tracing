@@ -6,15 +6,39 @@
 
 ## 1. 목표 및 배경
 ### 목표    
-
-### 배경
+- **Elephant Robotics MyAGV**를 이용한 **Lane Tracing**과 **Obstacle Avoidance**
+- 최소 시간 트랙 완주
 
 ## 2. 시스템 아키텍처
-본 프로젝트의 전체 시스템 아키텍처는 다음과 같이 구성됩니다:
+본 프로젝트의 전체 시스템 아키텍처는 다음과 같이 구성됩니다
+| 시스템 아키텍처 | 개발환경 아키텍처 |
+|------|------|
+| ![sys](git_images\sys_arc.png) | ![dev](git_images\dev_arc.png) |
 
 
-## 3. 레인 트레이싱(Ray Tracing) 로직
 
+## 3. 레인 트레이싱(Lane Tracing) 로직
+### LaneTracing Logic
+![LaneTrcaing](git_images\lane_tracing.png)
+
+### PID Controller
+![PID](git_images\pid.png)
+
+#### PID On vs PID Off
+| PID 적용 | PID On | PID Off|
+|------|------|------|
+| ![PID Effort](git_images\pid_effort.png) | ![dev](git_images\pid_on.gif) | ![dev](git_images\pid_off.gif) |
+
+### Obstacle Avoidance Logic
+![Obastacle Avoiance](git_images\avoidance.png)
+
+### Traffic Light Logic
+![Traffic Light](git_images\traffic_light.png)
+
+## Unity ROS#
+|  적용 | PID On | PID Off|
+|------|------|------|
+| ![PID Effort](git_images\unity1.png) | ![dev](git_images\unity2.png) | ![dev](git_images\unity3.png) |
 
 ## 4. AGV 사용법
 ### AGV 사용 전 유의 사항
@@ -30,11 +54,6 @@
 #### 2. Imbedded Topic
 - 모든 연산량이 많은 로직 코드는 **PC에서 실행**
 - 하지만 **Cam, Laser Scan, IMU** 등의 **AGV 자체에서 필수적으로 발행**해야 하는 데이터들은 AGV에서 직접 처리
-
-### 0. AGV 및 센서 동시에 실행 (MyAGV)
-```bash
-roslaunch mydata mydata_cam.launch
-```
 
 ### 1. Laser Scan Topic (MyAGV) 실행
 1. `operations.py` 실행
@@ -83,4 +102,5 @@ roslaunch mydata mydata_cam.launch
 - [ROS 공식 문서](https://www.ros.org/)
 - [OpenCV 공식 문서](https://opencv.org/)
 - [Unity ML-Agents](https://github.com/Unity-Technologies/ml-agents)
+- [Unity ROS#](https://github.com/siemens/ros-sharp)
 
